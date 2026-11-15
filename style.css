@@ -1,0 +1,36 @@
+/* harib 26i-3256 E */
+
+body {
+  background-color: #0defef;
+  color: #000000;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: left;
+}
+
+button {
+  background-color: #2563eb;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+}
