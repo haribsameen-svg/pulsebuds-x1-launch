@@ -110,3 +110,39 @@ footer {
   font-size: 18px;
   letter-spacing: 2px;
 }
+
+/* Form Layout and Inputs */
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding doesn't push inputs outside the container */
+  padding: 10px;
+  background-color: #0B1120; /* Matches body background for a sleek inset look */
+  color: #E2E8F0;
+  border: 1px solid #334155;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Electric Cyan highlight when typing */
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #22D3EE; 
+  box-shadow: 0 0 5px rgba(34, 211, 238, 0.3);
+}
